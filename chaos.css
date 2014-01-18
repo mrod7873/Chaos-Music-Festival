@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    line-height: 1.3;
+    background-image: url("images/Rainbow_spiral_by_YaschaZelunar.jpg");
+	background-attachment:fixed;
+   
+}
+#wrapper{
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.8);
+}
+header{
+    text-align: center;
+    color: #fff;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+}
+nav{
+    background-color: #420e51;
+    border-top: 5px solid #c58ad6;
+    border-bottom: 5px solid #c58ad6;
+    padding: 10px 0;
+}
+/*nav stuff here*/
+nav ul li{
+    display: inline;
+    padding: 10px 0px;
+   font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+nav a:link, nav a:visited{
+    padding:10px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #EDD1ED;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #FF0000;
+}
+article{
+    width: 600px;
+    margin: 5px 10px;
+    float: left;
+    padding: 10px;
+    padding-right:20px;
+    border-right: 3px solid #420e51;
+}
+p{
+    font-size: 1.0em;
+    line-height: 1.3;
+    margin-bottom: 1.3em;
+}
+p.main{
+    padding-top: 10px;
+    
+}
+ h2, h3, h4{
+    line-height: 1.5;
+    padding: 5px;
+ }
+ footer{
+    clear: both; 
+    height: 53px;
+    text-align: center;
+    color: #000;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    background-image: url("images/rainbow-bg-resized.jpg");
+    background-repeat: repeat-x;
+    padding-bottom: 50px;
+ }
+ .floatleftimg{
+    float: left;
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    
+ }
+ .logo1{
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 40px;
+    width: 250px;
+ }
+ #two{
+    padding-top: 30px;
+ }
+aside{
+	float: left;
+	width: 250px;
+	font-size: 1.0em;
+	padding-top: 70px;
+	padding-bottom: 20px;
+    text-align: center;
+    margin: 5px;
+    line-height: 1.5;
+    padding-left:15px;
+}
+.aside2{
+	
+	float: left;
+	width: 265px;
+	font-size: 0.9em;
+	padding-top: 0px;
+	padding-bottom: 20px;
+    text-align: left;
+    color:#000;
+    margin: 5px;
+    line-height: 1.5;
+    padding-left:20px;
+    padding-right: 15px;
+}
+p.icon{
+    display:inline;
+}
+#four{
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-right: 3px solid #420e51;
+}
+#five{
+    border-right: 3px solid #420e51;
+}
+#M5, #or, #Skillet, #final, #access{
+    margin-right: 30px;
+}
+#M51, #or1, #Skillet1, #final1, #access1{
+    margin-right: 30px;
+    text-align: center;
+}
+section.center{
+	 text-align: center;
+	 padding-top: 80px;
+}
+p.more a:link, nav a:visited{
+	text-decoration: none;
+}
+
+.more a:link, .more a:visited{
+	color:#C69;
+}
+.more a:hover{
+	color:#420e51;
+}
+
+p.main a:link, nav a:visited{
+	text-decoration: none;
+}
+.main a:link, .more a:visited{
+	color:#C69;
+}
+.main a:hover{
+	color:#420e51;
+}
+#three{
+padding-top: 20px;
+}
+#amp{
+padding-top: 20px;
+}
+#drums{
+padding-top: 20px;
+}
